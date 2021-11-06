@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>Developer's Profile</title>
+  <meta name="author" content="Aklilu Mandefro">
+
+	 <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico">
+  
+  
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+</head>
+
+<body bgcolor="yellow">
+  <div id="w">
+    <div id="content" class="clearfix">
+      <div id="userphoto"><img src="images/avatar.jpg" alt="default avatar"></div>
+      <h1>Developer's Profile</h1>
+
+      <nav id="profiletabs">
+        <ul class="clearfix">
+          <li><a href="#bio" class="sel">Bio</a></li>
+          <li><a href="#activity">Programming Skill</a></li>
+          <li><a href="#friends">Research Interest</a></li>
+          <li><a href="#settings">Other Skills</a></li>
+        </ul>
+      </nav>
+      
+      <section id="bio">
+	     <p><strong>Full Name:</strong> Aklilu Mandefro Messele<br>
+        <strong>About:</strong> Software Engineer and Researcher<br>
+        
+        <strong>Mobile Phone:</strong> +251 - 929 - 24 - 7472<br>
+		<strong>Email:</strong> <u>bepositive2712@yahoo.com </u>Or <u>aklilu.mandefro@yahoo.com</u><br>
+		<strong> Website:</strong><a href="https://www.aklilu.info.net"><font color="blue">https://www.aklilu.info.net</font></a></p>
+        
+
+      </section>
+      
+      <section id="activity" class="hidden">
+        <p>Both <strong>front-end</strong> and <strong>back-end</strong>  with the following programming languages:<br>
+&nbsp;&nbsp;&nbsp;<strong>1.</strong>HTML,CSS,jQuery and php with Mysql Database server<br>
+&nbsp;&nbsp;&nbsp;<strong>2.</strong>Java with SQL and oracle database servers<br>
+&nbsp;&nbsp;&nbsp;<strong>3.</strong>VB.Net and C#.Net with Microsft access and SQL database servers<br>
+&nbsp;&nbsp;&nbsp;<strong>4.</strong> python with SQL, Mysql, microsoft access and Oracle database servers</p>
+        
+       
+      </section>
+      
+      <section id="friends" class="hidden">
+        <p><strong>My area of research interest includes:</strong><br>
+		<strong>1.</strong> Computer Vision<br>
+		<strong>2.</strong>Artificial intelligence(Deep learning and Intelligent system)<br>
+		<strong>3.</strong>Human computer interaction <br>
+		<strong>4.</strong>knowledge representation and machine learning <br>
+		<strong>5.</strong>Data mining and information retreival<br>
+		<strong>6.</strong> Software Engineering</p>
+          <p><strong>  RESEARCH PUBLICATIONS </strong><br>
+      
+1.	Aklilu Mandefro Messele and Melkamu Addisu.. “Model to Determine Factors Affecting Students Academic Performance: The Case of Amhara Region Agency of Competency, Ethiopia”, 
+International Research Journal of Science and Technology, 1(2), 75-87, 2020 <br>
+Available at:<a href=" https://irjst.com/wp-content/uploads/March2020-v1-i2/IRJST122002.pdf"><font color="blue">https://irjst.com/wp-content/uploads/March2020-v1-i2/IRJST122002.pdf</font></a> 
+<br><br><br><br>
+<br><br><br><br>
+2.	Aklilu Mandefro Messele. “A Bio-Inspired Reward-Based Message Forwarding for Vehicular Social Network”, International Research Journal of Science and Technology, 1 (2) 106-119, 2020.
+<br>
+Available at:<a href="https://irjst.com/wp-content/uploads/March2020-v1-i2/IRJST122006.pdf"> <font color="blue">https://irjst.com/wp-content/uploads/March2020-v1-i2/IRJST122006.pdf</font></a>
+
+<br><br><br><br>
+<br><br><br><br>
+
+3.	Aklilu Mandefro Messele, “Comparing K-Means and Expectation Maximization Algorithm to Cluster Amharic Noun Terms”, Journal of Multidimensional Research and Review (JMRR), Vol.1, Iss.1, pp. 31-56, 2020
+<br>
+Available at: <a href=" http://jmrr.org/V1I1/V1I1P_20_04_03.pdf"><font color="blue"> http://jmrr.org/V1I1/V1I1P_20_04_03.pdf </font> </a> 
+      </section>
+      
+      <section id="settings" class="hidden">
+        <p><strong>Software Skills:</strong><br>
+		<strong>1.</strong> R and Weka Software<br>
+		<strong>2.</strong> Peachtree Accounting and SPSS</p>
+		<p><strong> Other Skills:</strong><br>
+		<strong> 1.</strong>Computer Maintenance and Network Installation<br>	
+			<strong> 2.</strong>Graphics design<br>	
+		<strong> 3.</strong>Photo and video Editing </p>
+        
+        
+      </section>
+    </div><!-- @end #content -->
+  </div><!-- @end #w -->
+<script type="text/javascript">
+$(function(){
+  $('#profiletabs ul li a').on('click', function(e){
+    e.preventDefault();
+    var newcontent = $(this).attr('href');
+    
+    $('#profiletabs ul li a').removeClass('sel');
+    $(this).addClass('sel');
+    
+    $('#content section').each(function(){
+      if(!$(this).hasClass('hidden')) { $(this).addClass('hidden'); }
+    });
+    
+    $(newcontent).removeClass('hidden');
+  });
+});
+</script>
+</body>
+</html>
