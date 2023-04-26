@@ -13,8 +13,8 @@ To run the program,
 
 For more information, please contat me at:
 Aklilu Mandefro,
-bepositive2712@yahoo.com , 
-https://volunteer-tech.com
+aklilu.mandefro@volunteer-tech.com, 
+https://volunteer-tech.com/Aklilu
 Linkedin: - https://linkedin.com/in/aklilu-mandefro-messele-8a3681194 ,
 Gondar, Ethiopia
 
