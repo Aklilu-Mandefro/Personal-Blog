@@ -11,11 +11,11 @@ To run the program,
 4. open a browser and type 'localhost/Personal Blog' from the address bar or URL of your browser and hit enter.
 5. Completed.
 
-For more information, please contat me at:
-Aklilu Mandefro,
-aklilu.mandefro@volunteer-tech.com, 
-https://volunteer-tech.com/Aklilu
-Linkedin: - https://linkedin.com/in/aklilu-mandefro-messele-8a3681194 ,
+For more information, please contat me at:<br>
+Aklilu Mandefro,<br>
+aklilu.mandefro@volunteer-tech.com, <br>
+https://volunteer-tech.com/Aklilu <br>
+Linkedin: - https://linkedin.com/in/aklilu-mandefro-messele-8a3681194 , <br>
 Gondar, Ethiopia
 
 ==================================================================================
