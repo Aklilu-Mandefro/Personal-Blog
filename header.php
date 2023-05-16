@@ -18,7 +18,7 @@
 					</span>
 				</div>
 				<div class="col-md-4 log-icons text-right">
-
+                                   // create social media coonection section
 					<ul class="social_list1 mt-3">
 
 						<li>
@@ -74,8 +74,8 @@
 									<span class="sr-only">(current)</span>
 								</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="about.php">About</a>
+						<li class="nav-item">
+							<a class="nav-link" href="about.php">About</a>
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
